@@ -1,0 +1,29 @@
+.dashboard-nav {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 17px !important;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: black;
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+
+.active-Link {
+  background-color: white;
+  color: darkblue;
+  font-weight: 600;
+  padding: 5px 6px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.inactive-Link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}

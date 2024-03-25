@@ -1,0 +1,99 @@
+.cont {
+  position: relative;
+  min-height: fit-content;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #060171;
+  text-decoration: none;
+  margin-top: 30px !important;
+  font-size: 36px;
+  padding: 12px 8px;
+  border-radius: 10px;
+  border: none !important;
+
+}
+
+.cont .togMsg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  color: black;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  z-index: 30;
+}
+
+.togMsg h2{
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #060171;
+}
+
+.togMsg p{
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  align-self: self-start;
+  color: brown;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.togMsg p span{
+  color: black;
+}
+.togMsg .popupBtn{
+  padding: 0 !important;
+  margin-top: 10px !important;
+}
+
+
+.cont .searchicon {
+  width: 40px;
+  height: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .cont button {
+    font-size: 20px !important;
+    gap: 8px;
+  }
+  .cont .searchicon {
+    width: 25px;
+    height: 25px;
+  }
+  .togMsg{
+    padding: 10px !important;
+    min-width: 90%;
+    border: #060171 solid 2px;
+  }
+  .togMsg h2{
+    font-size: 28px;
+  }
+  .togMsg p{
+    font-size: 16px;
+    align-self: center;
+    font-weight: 400;
+  }
+  .togMsg p span{
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

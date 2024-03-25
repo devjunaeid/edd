@@ -1,0 +1,41 @@
+.addNewServiceCont {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.addNewServiceCont div {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.addNewServiceCont label {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.addNewServiceCont input {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+  padding: 8px 4px;
+}
+
+.addNewServiceCont select {
+  padding: 8px 4px;
+}
+
+.addNewServiceCont button {
+  min-width: 80px;
+  background-color: white !important;
+}
+
+.addNewServiceCont button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

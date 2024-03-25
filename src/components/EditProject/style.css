@@ -1,0 +1,68 @@
+.edit_cont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  margin-top: 20px;
+}
+
+.ini_info {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px;
+  padding: 20px 40px;
+}
+
+.ini_info label {
+  color: var(--text-acc);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.ini_input {
+  font-size: 17px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #c8cbdf;
+  border-radius: 10px;
+  padding: 14px 8px;
+  border: none;
+}
+
+.edit_cont button {
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 80px;
+  padding: 8px 6px;
+  color: white;
+  background-color: black;
+  margin-top: 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.edit_cont button:disabled {
+  opacity: 0.5;
+}
+
+.pid {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.pid span {
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(93, 154, 33);
+  font-weight: 600;
+}
