@@ -1,7 +1,7 @@
 .search_cont {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   gap: 10px;
   margin-top: 6rem;
 }
