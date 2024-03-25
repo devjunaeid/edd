@@ -6,6 +6,7 @@ import preview from "@/../../public/preview.png";
 
 
 export const metadata = {
+  metadataBase: new URL('https://engineersdesign.com.bd'),
   title: "Engineers Design & Development",
   description: "Pushing Limits, Making Dreams Reality",
   openGraph: {
