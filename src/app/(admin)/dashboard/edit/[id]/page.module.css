@@ -1,0 +1,16 @@
+.cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.addNewService {
+  background-color: darkblue;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
