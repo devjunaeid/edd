@@ -1,0 +1,152 @@
+.status_cont {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: radial-gradient(circle, #edf7f9, #e7f0f5, #e3e9f0, #e0e2eb, #dddbe4, #ded9e3, #dfd6e1, #e1d4de, #e7d5e2, #edd7e5, #f3d8e8, #f9d9eb);
+}
+
+.result_cont {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+  width: 60%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.project_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 60%;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.viewLink {
+  text-decoration: none;
+  font-size: 22px;
+  color: darkblue;
+  background-color: white;
+  padding: 6px 8px;
+  border-radius: 3px;
+  border: none;
+}
+
+.project_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 22px;
+  position: relative;
+  min-width: 100%;
+}
+
+
+.project_info h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.projectId {
+  font-size: 15px !important;
+  text-align: left;
+  font-style: italic;
+  color: darkgray !important;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.project_info p {
+  font-size: 18px;
+  font-family: cursive;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.project_info p span {
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+
+.list_cont {
+  min-width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.defaultMsg,
+.noRecords {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-top: 10%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .project_cont {
+    width: 100%;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .result_cont {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    flex: none;
+  }
+
+  .status_cont {
+    width: 100%;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
+  }
+
+  .project_cont {
+    width: 95%;
+    padding: 16px 8px;
+    padding-top: 5px;
+  }
+
+  .project_info {
+    font-size: 18px;
+    padding-top: 14px;
+  }
+
+  .projectId {
+    font-size: 12px !important;
+    margin-bottom: 5px;
+  }
+
+  .list_cont {
+    width: 95%;
+    margin: auto;
+  }
+
+  .defaultMsg,
+  .noRecords {
+    margin-top: 50%;
+  }
+}

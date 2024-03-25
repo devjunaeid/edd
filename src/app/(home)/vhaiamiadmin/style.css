@@ -1,0 +1,17 @@
+.signindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+
+.signindiv .loginLink {
+  text-decoration: none;
+  font-size: 28px;
+  background-color: black;
+  padding: 10px 8px;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+}
