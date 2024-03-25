@@ -31,16 +31,16 @@ function Footer() {
           <p>+88 01712165408</p>
           <p>engineersbd.edd@gmail.com</p>
           <div className="social_links">
-            <Link href={"https://facebook.com"}>
+            <Link href={"https://www.facebook.com/engineersbd.edd"} target="_blank">
               <FaFacebookSquare className="social_icon" />
             </Link>
-            <Link href={"https://facebook.com"}>
+            <Link href={"https://www.linkedin.com/company/edd-bd/"} target="_blank">
               <FaLinkedin className="social_icon" />
             </Link>
-            <Link href={"https://facebook.com"}>
+            <Link href={"https://twitter.com/EngineersDesig1"} target="_blank">
               <FaXTwitter className="social_icon" />
             </Link>
-            <Link href={"https://facebook.com"}>
+            <Link href={"https://www.youtube.com/channel/UCRn9pnpVXdsH4TJpdaGZgsA"} target="_blank">
               <FaYoutube className="social_icon" />
             </Link>
           </div>
