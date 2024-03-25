@@ -40,9 +40,9 @@
 }
 
 .comment {
-  color: lightblue !important;
+  color: white !important;
   font-family: monospace !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   width: 100%;
   height: fit-content;
   padding: 10px;
