@@ -357,6 +357,11 @@
   .hero_sd {
     font-size: 18px;
     width: 550px;
+    z-index: 30 !important;
+  }
+
+  .service_card_cont {
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 
   .wedo_item_cont {
