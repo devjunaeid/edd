@@ -8,3 +8,15 @@ export function phoneValidation(values) {
   }
   return errors;
 }
+
+export function emailValidation(email) {
+  var err = "";
+  const emailPattern =
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  if (email.length === 0) {
+    err = "Email can not be empty!";
+  } else if (!emailPattern.test(email)) {
+    err = "Please provide a valid email address.";
+  }
+  return err;
+}
