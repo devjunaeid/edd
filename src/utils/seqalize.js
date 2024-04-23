@@ -70,7 +70,7 @@ export const ProjectInfo = sequelize.define(
   },
   {
     freezeTableName: true,
-  },
+  },DataTypes.INTEGER
 );
 
 export const ServiceList = sequelize.define(
@@ -131,6 +131,30 @@ export const Stats = sequelize.define(
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 0,
+    },
+  },
+  {
+    freezeTableName: true,
+  },
+);
+
+
+// Newslatter Model
+export const Newslatter = sequelize.define(
+  "Newslatter",
+  {
+    id: {
+      type: UUID,
+      defaultValue: UUIDV1,
+      primaryKey: true,
+    },
+    email: {
+      type: DataTypes.STRING,
+    },
+    sub_date: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: DataTypes.NOW, 
     },
   },
   {
