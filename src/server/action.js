@@ -1,6 +1,6 @@
 "use server";
 
-import { ProjectInfo, ServiceList, checkConnection } from "@/utils/seqalize";
+import { Newslatter, ProjectInfo, ServiceList, checkConnection } from "@/utils/seqalize";
 import { revalidatePath } from "next/cache";
 
 export async function setNewStatus(data) {
@@ -108,5 +108,47 @@ export async function updateServiceById(data, id, project_id) {
     });
   } catch (error) {
     return JSON.stringify({ error: error, status: 500 });
+  }
+}
+
+// Newsletter Subscription
+// Check if already subscribed
+export async function isAlreadySubscribed(email){
+  await checkConnection();
+  try {
+    const data = await Newslatter.findOne({ where: { email: email } });
+    console.log(data) 
+    return data;
+  } catch (error) {
+    return JSON.stringify({ error: error, status: 500 });
+  }
+}
+
+// Add new Subscriber.
+export async function addSubscriber(email){
+  try {
+    await Newslatter.create({email: email})
+    return JSON.stringify({
+      message: "Subs Added",
+      status: 201,
+    });
+  } catch (error) {
+   return JSON.stringify({
+    error: error,
+    status:  500
+   }) 
+  }
+}
+
+// Get All subscriber.
+export async function getAllSubscriber() {
+  try {
+   const data = await Newslatter.findAll()
+   return data 
+  } catch (error) {
+    return JSON.stringify({
+      error: "Faild to fetch data.",
+      status: 500
+    })
   }
 }
