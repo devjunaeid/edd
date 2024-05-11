@@ -18,16 +18,21 @@ const navItems = [
   },
   {
     id: 3,
+    name: "Mailing List",
+    link: "/dashboard/subs",
+  },
+  {
+    id: 4,
     name: "New Project",
     link: "/dashboard/new",
   },
   {
-    id: 4,
+    id: 5,
     name: "Client Search",
     link: "/status",
   },
   {
-    id: 5,
+    id: 6,
     name: "Home Page",
     link: "/",
   },
