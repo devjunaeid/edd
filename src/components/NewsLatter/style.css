@@ -26,9 +26,9 @@ input[type="email"]:focus {
 }
 
 .errorMsg {
-    color: red;
-    font-size: 12px;
-    font-weight: 600;
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 #email {
@@ -52,6 +52,51 @@ input[type="email"]:focus {
 
 .submit-btn:hover {
   animation: easepop 1200ms ease-out infinite;
+}
+
+.submit-btn:disabled{
+  cursor: not-allowed;
+  opacity: 0.7; 
+}
+
+.togMsg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  color: black;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  z-index: 30;
+}
+
+.togMsg h2 {
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #060171;
+}
+
+.togMsg p {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  align-self: self-start;
+  color: brown;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.togMsg p span {
+  color: black;
+}
+.togMsg .popupBtn {
+  padding: 0 !important;
+  margin-top: 10px !important;
 }
 
 @keyframes easepop {
@@ -78,5 +123,21 @@ input[type="email"]:focus {
   100% {
     scale: 100%;
     rotate: calc(0);
+  }
+}
+
+/* Mobile Design */
+
+@media only screen and (max-width: 600px) {
+  
+
+  #email{
+    font-size: 18px;
+   padding: 8px; 
+  }
+ 
+  .submit-btn{
+    font-size: 15px;
+   padding: 6px 8px; 
   }
 }
