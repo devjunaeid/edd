@@ -12,6 +12,22 @@
   padding: 8px 4px;
 }
 
+.tableTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableTop button{
+  padding: 8px 8px;
+  font-size: 18px;
+  background-color: darkblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
 .table_cont {
   width: 100%;
   margin: 20px 0;

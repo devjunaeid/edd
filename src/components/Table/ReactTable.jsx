@@ -15,7 +15,6 @@ import DebouncedInput from "../DebouncedInput";
 import CustomLink from "../CustomLink/CustomLink";
 import { useRecoilState } from "recoil";
 import { projectList } from "@/lib/atoms/projectList";
-import { serviceList } from "@/lib/atoms/serviceList";
 import { getAllStatus } from "@/server/action";
 
 const columnHelper = createColumnHelper();
