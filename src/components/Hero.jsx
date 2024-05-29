@@ -9,7 +9,7 @@ function Hero() {
   return (
     <div className="hero_cont">
       <div className="hero_title">
-        <span>Engineers</span>Design and Development
+        <span>Engineer's</span>Design and Development
       </div>
       <div className="hero_sd">
         <p>
