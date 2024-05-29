@@ -51,7 +51,7 @@ input[type="email"]:focus {
 }
 
 .submit-btn:hover {
-  animation: easepop 1200ms ease-out infinite;
+  animation: easepop 1200ms ease-out 5;
 }
 
 .submit-btn:disabled{
