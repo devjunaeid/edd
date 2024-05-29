@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cont button {
@@ -42,20 +43,19 @@
 
 .togMsg h2{
   font-size: 32px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #060171;
 }
 
 .togMsg p{
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 200;
   text-align: left;
   align-self: self-start;
   color: brown;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .togMsg p span{
+  font-weight: 600 !important;
   color: black;
 }
 .togMsg .popupBtn{
