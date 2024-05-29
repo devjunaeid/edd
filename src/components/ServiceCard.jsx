@@ -9,6 +9,7 @@ import sd from "@/../public/Service/sd.PNG";
 import est from "@/../public/Service/est.jpg";
 import ssd from "@/../public/Service/ssd.jpg";
 import ep from "@/../public/Service/ep.jpg";
+import ia from "@/../public/Service/IA.jpg";
 
 const service = [
   {
@@ -64,6 +65,12 @@ const service = [
     title: "Electrical & Plambing Design",
     body: "Electrical load calculation, electrical design, drawing and all types of electrical services are provided by experienced electrical engineers for your establishment. In addition, plumbing design, drawing and services are provided for your establishment.",
     img: ep
+  },
+  {
+    id: "10",
+    title: "Industrial Attachment",
+    body: "Engineer’s Design & Development offers 12-week Industrial Attachment training for BTEB-certified Diploma Engineering students, bridging vocational syllabus gaps. Led by professionals, it emphasizes job skills with modern labs and tutorials. Post-training support ensures students can showcase talents for job placements or entrepreneurship.",
+    img: ia 
   }
 ]
 

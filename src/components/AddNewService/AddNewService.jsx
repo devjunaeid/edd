@@ -339,6 +339,46 @@ const servicelist = [
       },
     ],
   },
+  {
+    service_name: "Industrial Attachment",
+    steps: [
+      {
+        id: 1,
+        name: "Enrollment",
+        date: "",
+      },
+      {
+        id: 2,
+        name: "Project 1",
+        date: "",
+      },
+      {
+        id: 3,
+        name: "Project 2",
+        date: "",
+      },
+      {
+        id: 4,
+        name: "Project 3",
+        date: "",
+      },
+      {
+        id: 5,
+        name: "Evaluation Exam",
+        date: "",
+      },
+      {
+        id: 6,
+        name: "Result",
+        date: "",
+      },
+      {
+        id: 7,
+        name: "Certifiaction",
+        date: "",
+      },
+    ],
+  },
 ];
 function AddNewService({ id }) {
   const [service, setService] = useState({
