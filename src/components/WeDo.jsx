@@ -19,7 +19,7 @@ const data = [
   },
   {
     id: "4",
-    title: "Constaction",
+    title: "Construction",
     items: ["Pile Foundation", "RCC Structure", "Steel Structure", "Building Construction"]
   }
 ]
